@@ -1,0 +1,32 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+    "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:080",
+        "action": "track",
+        "core_version": "1.0.0",
+        "bap_id": "ondc.eunimart.com",
+        "bap_uri": "https://ondc.eunimart.com/api/v1/ondc/bap/eunimart_bap/",
+        "transaction_id": "397b38d2-f82a-4a92-8615-7dc49b20fa50",
+        "ttl": "PT30S",
+        "message_id": "187fc5fe-f7a4-4229-b73a-c635262f8d5e",
+        "timestamp": "2023-01-27T05:53:38.908Z",
+        "bpp_id": "kitchens-at.com",
+        "bpp_uri": "https://kitchens-at.com/ondc_preprod/Retailer/"
+    },
+    "message": {
+        "order_id": "b361706e-1f37-488a-87c4-0cfbd281398a",
+        "callback_url": "https://ondc.eunimart.com/api/v1/ondc/bpp/eunimart_bpp/render_tracking"
+    }
+}

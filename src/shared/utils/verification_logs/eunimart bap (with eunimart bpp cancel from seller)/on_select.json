@@ -1,0 +1,127 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+    "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:040",
+        "action": "on_select",
+        "core_version": "1.0.0",
+        "bap_id": "ondc.eunimart.com",
+        "bap_uri": "https://ondc.eunimart.com/api/v1/ondc/bap/eunimart_bap/",
+        "transaction_id": "e7972452-87cc-494c-849c-df7903e33319",
+        "ttl": "PT30S",
+        "message_id": "4aa03cf0-38da-4af8-a372-680d22b5c1bd",
+        "timestamp": "2023-01-27T06:15:31.324Z",
+        "bpp_id": "ondc.eunimart.com",
+        "bpp_uri": "https://ondc.eunimart.com/api/v1/ondc/bpp/eunimart_bpp/",
+        "key": "MCowBQYDK2VuAyEAxdRfdUPnS0Y+73giKsNq6ByOOJHN2JSvreIDtW9gCjM="
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "SIVA-ONDC-STORE-1"
+            },
+            "items": [
+                {
+                    "fulfillment_id": "Fulfillment-01",
+                    "id": "34XS84MBsSo6iBSY7JEc"
+                }
+            ],
+            "fulfillments": [
+                {
+                    "id": "Fulfillment-01",
+                    "@ondc/org/provider_name": "Loadshare",
+                    "tracking": false,
+                    "@ondc/org/category": "Delivery",
+                    "@ondc/org/TAT": "PT1M",
+                    "state": {
+                        "descriptor": {
+                            "name": "Serviceable"
+                        }
+                    }
+                }
+            ],
+            "quote": {
+                "price": {
+                    "currency": "INR",
+                    "value": "40"
+                },
+                "breakup": [
+                    {
+                        "@ondc/org/item_id": "34XS84MBsSo6iBSY7JEc",
+                        "@ondc/org/item_quantity": {
+                            "count": 1
+                        },
+                        "title": "Sprite 600",
+                        "@ondc/org/title_type": "item",
+                        "price": {
+                            "currency": "INR",
+                            "value": "40"
+                        },
+                        "item": {
+                            "quantity": {
+                                "available": {
+                                    "count": "5"
+                                },
+                                "maximum": {
+                                    "count": "5"
+                                }
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "40"
+                            }
+                        }
+                    },
+                    {
+                        "@ondc/org/item_id": "34XS84MBsSo6iBSY7JEc",
+                        "title": "Tax",
+                        "@ondc/org/title_type": "tax",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        }
+                    },
+                    {
+                        "@ondc/org/item_id": "Fulfillment-01",
+                        "title": "Packing charges",
+                        "@ondc/org/title_type": "packing",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        }
+                    },
+                    {
+                        "@ondc/org/item_id": "Fulfillment-01",
+                        "title": "Delivery charges",
+                        "@ondc/org/title_type": "delivery",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        }
+                    },
+                    {
+                        "@ondc/org/item_id": "Fulfillment-01",
+                        "title": "Convenience Fee",
+                        "@ondc/org/title_type": "misc",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        }
+                    }
+                ]
+            },
+            "ttl": "P1D"
+        }
+    }
+}

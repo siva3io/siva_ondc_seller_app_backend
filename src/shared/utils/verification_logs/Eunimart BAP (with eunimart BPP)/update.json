@@ -1,0 +1,57 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+    "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:080",
+        "action": "update",
+        "core_version": "1.0.0",
+        "bap_id": "ondc.eunimart.com",
+        "bap_uri": "https://ondc.eunimart.com/api/v1/ondc/bap/eunimart_bap/",
+        "transaction_id": "ad885808-06b4-4252-8615-24a3b0447ab9",
+        "ttl": "PT30S",
+        "message_id": "03a69fce-703c-4178-9d3b-855c7bb9a05d",
+        "timestamp": "2023-01-27T05:23:56.791Z",
+        "bpp_id": "ondc.eunimart.com",
+        "bpp_uri": "https://ondc.eunimart.com/api/v1/ondc/bpp/eunimart_bpp/"
+    },
+    "message": {
+        "update_target": "item",
+        "order": {
+            "id": "24d72800-6c31-4bc8-ba7b-67fe3ee3eb33",
+            "provider": {
+                "id": "SIVA-ONDC-STORE-1",
+                "locations": [
+                    {
+                        "id": ""
+                    }
+                ]
+            },
+            "items": [
+                {
+                    "id": "LAYS_G_327",
+                    "quantity": {
+                        "count": 2
+                    },
+                    "tags": {
+                        "update_type": "cancel",
+                        "reason_code": {
+                            "id": "002",
+                            "label": "One or more items in the Order not available"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

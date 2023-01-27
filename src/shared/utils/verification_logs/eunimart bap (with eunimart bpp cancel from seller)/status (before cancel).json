@@ -1,0 +1,31 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+    "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:040",
+        "action": "status",
+        "core_version": "1.0.0",
+        "bap_id": "ondc.eunimart.com",
+        "bap_uri": "https://ondc.eunimart.com/api/v1/ondc/bap/eunimart_bap/",
+        "transaction_id": "e7972452-87cc-494c-849c-df7903e33319",
+        "ttl": "PT30S",
+        "message_id": "f8641d81-30a3-4bb2-9cba-fd3ae03699f3",
+        "timestamp": "2023-01-27T06:18:55.899Z",
+        "bpp_id": "ondc.eunimart.com",
+        "bpp_uri": "https://ondc.eunimart.com/api/v1/ondc/bpp/eunimart_bpp/"
+    },
+    "message": {
+        "order_id": "d0d3453f-0e12-47a7-bb3a-afd0cca53cfa"
+    }
+}

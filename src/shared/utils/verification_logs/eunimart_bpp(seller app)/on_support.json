@@ -1,0 +1,33 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+  "context": {
+    "domain": "nic2004:52110",
+    "action": "support",
+    "country": "IND",
+    "city": "std:040",
+    "core_version": "1.0.0",
+    "bpp_id": "ondc.eunimart.com",
+    "bpp_uri": "https://ondc.eunimart.com/api/v1/ondc/bpp/eunimart_bpp/",
+    "bap_id": "ondc.indiastack.cloud",
+    "bap_uri": "https://ondc.indiastack.cloud/ondc/v1/163525/",
+    "transaction_id": "a361e2e4-8caf-465f-b52c-a306de3c2823",
+    "message_id": "7760e1f6-f65b-40a7-8f53-6f44558d8626",
+    "timestamp": "2023-01-25T07:48:19.241Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "phone": "+919886098860",
+    "email": "test@ondc.org",
+    "uri": "chatbot_uri"
+  }
+}

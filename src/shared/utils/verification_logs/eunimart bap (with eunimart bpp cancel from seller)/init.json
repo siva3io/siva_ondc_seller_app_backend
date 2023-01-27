@@ -1,0 +1,100 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+    "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:040",
+        "action": "init",
+        "core_version": "1.0.0",
+        "bap_id": "ondc.eunimart.com",
+        "bap_uri": "https://ondc.eunimart.com/api/v1/ondc/bap/eunimart_bap/",
+        "transaction_id": "e7972452-87cc-494c-849c-df7903e33319",
+        "ttl": "PT30S",
+        "message_id": "3b8e8baa-545d-466f-b203-73f164ed0e27",
+        "timestamp": "2023-01-27T06:16:10.072Z",
+        "bpp_id": "ondc.eunimart.com",
+        "bpp_uri": "https://ondc.eunimart.com/api/v1/ondc/bpp/eunimart_bpp/"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "SIVA-ONDC-STORE-1",
+                "locations": [
+                    {
+                        "id": ""
+                    }
+                ]
+            },
+            "items": [
+                {
+                    "id": "34XS84MBsSo6iBSY7JEc",
+                    "fulfillment_id": "Fulfillment-01",
+                    "quantity": {
+                        "count": 1
+                    }
+                }
+            ],
+            "billing": {
+                "address": {
+                    "door": "11th floor Sanali Spazo, High Tech City",
+                    "city": "Hyderabad",
+                    "state": "Telangana",
+                    "country": "India",
+                    "area_code": "500081"
+                },
+                "phone": "9874563214",
+                "name": "Saira",
+                "email": "saira@gmail.com"
+            },
+            "fulfillments": [
+                {
+                    "id": "Fulfillment-01",
+                    "tracking": false,
+                    "end": {
+                        "contact": {
+                            "email": "saira@gmail.com",
+                            "phone": "9874563214"
+                        },
+                        "location": {
+                            "gps": "17.4485835,78.39080349999999",
+                            "address": {
+                                "door": "11th floor Sanali Spazo, High Tech City",
+                                "city": "Hyderabad",
+                                "state": "Telangana",
+                                "country": "India",
+                                "area_code": "500081"
+                            }
+                        }
+                    },
+                    "type": "Delivery",
+                    "provider_id": "SIVA-ONDC-STORE-1"
+                }
+            ],
+            "tags": [
+                {
+                    "code": "bap_terms_fee",
+                    "list": [
+                        {
+                            "code": "finder_fee_type",
+                            "value": "Percent"
+                        },
+                        {
+                            "code": "finder_fee_amount",
+                            "value": "3"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,100 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+    "context": {
+      "domain": "nic2004:52110",
+      "country": "IND",
+      "city": "std:080",
+      "action": "init",
+      "core_version": "1.0.0",
+      "bap_id": "ondc.eunimart.com",
+      "bap_uri": "https://ondc.eunimart.com/api/v1/ondc/bap/eunimart_bap/",
+      "transaction_id": "397b38d2-f82a-4a92-8615-7dc49b20fa50",
+      "ttl": "PT30S",
+      "message_id": "7cd0217f-5832-4535-b10e-fc8ab8d7a676",
+      "timestamp": "2023-01-27T05:49:51.574Z",
+      "bpp_id": "kitchens-at.com",
+      "bpp_uri": "https://kitchens-at.com/ondc_preprod/Retailer/"
+    },
+    "message": {
+      "order": {
+        "provider": {
+          "id": "2116",
+          "locations": [
+            {
+              "id": "2116_location"
+            }
+          ]
+        },
+        "items": [
+          {
+            "id": "2116_72808",
+            "fulfillment_id": "1",
+            "quantity": {
+              "count": 1
+            }
+          }
+        ],
+        "billing": {
+          "address": {
+            "door": "No:3, 80 Feet Road Near 91 Spring Board, Opposite Indoor stadium, Koramangala 8th Block, Koramangala",
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "country": "India",
+            "area_code": "560095"
+          },
+          "phone": "8796543215",
+          "name": "Saira Shaik",
+          "email": "regenta@gmail.com"
+        },
+        "fulfillments": [
+          {
+            "id": "1",
+            "tracking": true,
+            "end": {
+              "contact": {
+                "email": "regenta@gmail.com",
+                "phone": "8796543215"
+              },
+              "location": {
+                "gps": "12.943655312278942, 77.6214589261631",
+                "address": {
+                  "door": "No:3, 80 Feet Road Near 91 Spring Board, Opposite Indoor stadium, Koramangala 8th Block, Koramangala",
+                  "city": "Bengaluru",
+                  "state": "Karnataka",
+                  "country": "India",
+                  "area_code": "560095"
+                }
+              }
+            },
+            "type": "Delivery",
+            "provider_id": "2116"
+          }
+        ],
+        "tags": [
+          {
+            "code": "bap_terms_fee",
+            "list": [
+              {
+                "code": "finder_fee_type",
+                "value": "Percent"
+              },
+              {
+                "code": "finder_fee_amount",
+                "value": "3"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }

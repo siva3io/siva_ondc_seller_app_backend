@@ -1,0 +1,197 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+    "context": {
+        "action": "on_status",
+        "bap_id": "ondc.indiastack.cloud",
+        "bap_uri": "https://ondc.indiastack.cloud/ondc/v1/163525/",
+        "bpp_id": "ondc.eunimart.com",
+        "bpp_uri": "https://ondc.eunimart.com/api/v1/ondc/bpp/eunimart_bpp/",
+        "city": "std:080",
+        "core_version": "1.0.0",
+        "country": "IND",
+        "domain": "nic2004:52110",
+        "message_id": "fee0b289-4da7-489f-b647-12fe4f5f010f",
+        "timestamp": "2023-01-27T05:21:27.406Z",
+        "transaction_id": "1cf1d096-5d42-4b8f-9286-6f37f0e7be1f"
+    },
+    "message": {
+        "order": {
+            "id": "aef9386a-6572-47b0-9b97-f5923b645f91",
+            "state": "Accepted",
+            "provider": {
+                "id": "SIVA-ONDC-STORE-1",
+                "locations": [
+                    {
+                        "id": "SIVA-ONDC-STORE-1-LOC-1"
+                    }
+                ]
+            },
+            "items": [
+                {
+                    "fulfillment_id": "Fulfillment-01",
+                    "id": "LAYS_G_327",
+                    "quantity": {
+                        "count": 5
+                    }
+                }
+            ],
+            "billing": {
+                "address": {
+                    "area_code": "500070",
+                    "city": "K.V.Rangareddy",
+                    "country": "IN",
+                    "door": "Vanasthalipuram",
+                    "locality": "Vanasthalipuram",
+                    "name": "Vanasthalipuram",
+                    "state": "TELANGANA"
+                },
+                "created_at": "2023-01-23T15:51:21",
+                "email": "rupa.kodali@eunimart.com",
+                "name": "RupaKodali",
+                "phone": "7995203107",
+                "updated_at": "2023-01-23T15:51:21"
+            },
+            "quote": {
+                "breakup": [
+                    {
+                        "@ondc/org/item_id": "LAYS_G_327",
+                        "@ondc/org/item_quantity": {
+                            "count": 5
+                        },
+                        "@ondc/org/title_type": "item",
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "50"
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": "5"
+                                },
+                                "maximum": {
+                                    "count": "5"
+                                }
+                            }
+                        },
+                        "price": {
+                            "currency": "INR",
+                            "value": "250"
+                        },
+                        "title": "Green Lays Potato Chips - American Style Cream & Onion Flavour"
+                    },
+                    {
+                        "@ondc/org/item_id": "LAYS_G_327",
+                        "@ondc/org/title_type": "tax",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "title": "Tax"
+                    },
+                    {
+                        "@ondc/org/item_id": "Fulfillment-01",
+                        "@ondc/org/title_type": "packing",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "title": "Packing charges"
+                    },
+                    {
+                        "@ondc/org/item_id": "Fulfillment-01",
+                        "@ondc/org/title_type": "delivery",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "title": "Delivery charges"
+                    },
+                    {
+                        "@ondc/org/item_id": "Fulfillment-01",
+                        "@ondc/org/title_type": "misc",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "title": "Convenience Fee"
+                    }
+                ],
+                "price": {
+                    "currency": "INR",
+                    "value": "250"
+                }
+            },
+            "fulfillments": [
+                {
+                    "@ondc/org/provider_name": "Siva Store",
+                    "end": {
+                        "contact": {
+                            "email": "rupa.kodali@eunimart.com",
+                            "phone": "7995203107"
+                        },
+                        "location": {
+                            "address": {
+                                "area_code": "500070",
+                                "city": "K.V.Rangareddy",
+                                "country": "IN",
+                                "door": "",
+                                "locality": "",
+                                "name": "Vanasthalipuram",
+                                "state": "TELANGANA"
+                            },
+                            "gps": "17.4485835,78.39080349999999"
+                        },
+                        "person": {
+                            "name": "Rupa Kodali"
+                        }
+                    },
+                    "id": "Fulfillment-01",
+                    "provider_id": "SIVA-ONDC-STORE-1",
+                    "state": {
+                        "descriptor": {
+                            "code": "Pending",
+                            "name": "Pending"
+                        }
+                    },
+                    "tracking": false,
+                    "type": "Delivery"
+                }
+            ],
+            "payment": {
+                "@ondc/org/buyer_app_finder_fee_amount": "3",
+                "@ondc/org/buyer_app_finder_fee_type": "percent",
+                "@ondc/org/return_window": "0",
+                "@ondc/org/settlement_basis": "",
+                "@ondc/org/settlement_details": [
+                    {
+                        "bank_name": "Axis",
+                        "beneficiary_name": "shayak Mazumder",
+                        "branch_name": "Axis Bank",
+                        "settlement_bank_account_no": "78000768594",
+                        "settlement_ifsc_code": "UTIB0000008",
+                        "upi_address": "eunimart@okaxis"
+                    }
+                ],
+                "@ondc/org/settlement_window": "",
+                "@ondc/org/withholding_amount": "0.0",
+                "collected_by": "BPP",
+                "params": {
+                    "amount": "250",
+                    "currency": "INR"
+                },
+                "status": "NOT-PAID",
+                "type": "POST-FULFILLMENT"
+            }
+        }
+    }
+}

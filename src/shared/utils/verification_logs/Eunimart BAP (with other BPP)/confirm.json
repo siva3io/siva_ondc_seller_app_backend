@@ -1,0 +1,174 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+    "context": {
+      "domain": "nic2004:52110",
+      "country": "IND",
+      "city": "std:080",
+      "action": "confirm",
+      "core_version": "1.0.0",
+      "bap_id": "ondc.eunimart.com",
+      "bap_uri": "https://ondc.eunimart.com/api/v1/ondc/bap/eunimart_bap/",
+      "transaction_id": "397b38d2-f82a-4a92-8615-7dc49b20fa50",
+      "ttl": "PT30S",
+      "message_id": "f2e971fa-5163-4e68-9dba-c160b3131c6f",
+      "timestamp": "2023-01-27T05:51:07.926Z",
+      "bpp_id": "kitchens-at.com",
+      "bpp_uri": "https://kitchens-at.com/ondc_preprod/Retailer/"
+    },
+    "message": {
+      "order": {
+        "id": "b361706e-1f37-488a-87c4-0cfbd281398a",
+        "state": "Created",
+        "billing": {
+          "address": {
+            "door": "No:3, 80 Feet Road Near 91 Spring Board, Opposite Indoor stadium, Koramangala 8th Block, Koramangala",
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "country": "India",
+            "area_code": "560095"
+          },
+          "phone": "8796543215",
+          "name": "Saira Shaik",
+          "email": "regenta@gmail.com"
+        },
+        "items": [
+          {
+            "id": "2116_72808",
+            "quantity": {
+              "count": 1
+            },
+            "fulfillment_id": "1"
+          }
+        ],
+        "fulfillments": [
+          {
+            "id": "1",
+            "tracking": true,
+            "end": {
+              "contact": {
+                "email": "regenta@gmail.com",
+                "phone": "8796543215"
+              },
+              "location": {
+                "gps": "12.943655312278942, 77.6214589261631",
+                "address": {
+                  "door": "No:3, 80 Feet Road Near 91 Spring Board, Opposite Indoor stadium, Koramangala 8th Block, Koramangala",
+                  "city": "Bengaluru",
+                  "state": "Karnataka",
+                  "country": "India",
+                  "area_code": "560095"
+                }
+              }
+            },
+            "type": "Delivery",
+            "provider_id": "2116",
+            "start": {
+              "contact": {
+                "email": "test@gmail.com",
+                "phone": "9632080103"
+              },
+              "location": {
+                "address": {
+                  "door": "",
+                  "name": "THARAVADU MALABAR BIRYANI - COK-KRM",
+                  "building": "",
+                  "street": "",
+                  "locality": "",
+                  "city": "bangalore",
+                  "state": "Karnataka",
+                  "country": "India",
+                  "area_code": "560095"
+                }
+              }
+            }
+          }
+        ],
+        "payment": {
+          "params": {
+            "amount": "317.75",
+            "currency": "INR"
+          },
+          "status": "PAID",
+          "type": "ON-ORDER",
+          "collected_by": "BAP",
+          "@ondc/org/settlement_details": [
+            {
+              "settlement_counterparty": "seller-app",
+              "settlement_phase": "sale-amount",
+              "settlement_type": "upi",
+              "upi_address": "gft@oksbi",
+              "settlement_bank_account_no": "XXXXXXXXXX",
+              "settlement_ifsc_code": "XXXXXXXXX",
+              "beneficiary_name": "xxxxx",
+              "bank_name": "xxxx",
+              "branch_name": "xxxx"
+            }
+          ],
+          "@ondc/org/withholding_amount": "0.0",
+          "@ondc/org/return_window": "0",
+          "@ondc/org/settlement_basis": "Collection",
+          "@ondc/org/settlement_window": "P2D"
+        },
+        "quote": {
+          "price": {
+            "currency": "INR",
+            "value": "317.75"
+          },
+          "breakup": [
+            {
+              "title": "Chicken Noodles (Serves 1)",
+              "price": {
+                "currency": "INR",
+                "value": "255"
+              },
+              "@ondc/org/item_id": "2116_72808",
+              "@ondc/org/title_type": "item",
+              "@ondc/org/item_quantity": {
+                "count": 1
+              }
+            },
+            {
+              "@ondc/org/item_id": "2116_72808",
+              "title": "Tax",
+              "@ondc/org/title_type": "tax",
+              "price": {
+                "currency": "INR",
+                "value": "12.75"
+              }
+            },
+            {
+              "@ondc/org/item_id": "1",
+              "title": "Packaging Charge",
+              "@ondc/org/title_type": "packing",
+              "price": {
+                "currency": "INR",
+                "value": "10"
+              }
+            },
+            {
+              "@ondc/org/item_id": "1",
+              "title": "Delivery Charge",
+              "@ondc/org/title_type": "delivery",
+              "price": {
+                "currency": "INR",
+                "value": "40"
+              }
+            }
+          ],
+          "ttl": "PT30S"
+        },
+        "created_at": "2023-01-27T05:51:07.929Z",
+        "updated_at": "2023-01-27T05:51:07.929Z"
+      }
+    }
+  }

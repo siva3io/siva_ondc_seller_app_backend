@@ -1,0 +1,61 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+    "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:080",
+        "action": "select",
+        "core_version": "1.0.0",
+        "bap_id": "ondc.eunimart.com",
+        "bap_uri": "https://ondc.eunimart.com/api/v1/ondc/bap/eunimart_bap/",
+        "transaction_id": "397b38d2-f82a-4a92-8615-7dc49b20fa50",
+        "ttl": "PT30S",
+        "message_id": "362de6b4-7f13-4a1f-848d-18ea972242f7",
+        "timestamp": "2023-01-27T05:48:41.577Z",
+        "bpp_id": "kitchens-at.com",
+        "bpp_uri": "https://kitchens-at.com/ondc_preprod/Retailer/"
+    },
+    "message": {
+        "order": {
+            "items": [
+                {
+                    "id": "2116_72808",
+                    "location_id": "2116_location",
+                    "quantity": {
+                        "count": 1
+                    }
+                }
+            ],
+            "provider": {
+                "id": "2116",
+                "locations": [
+                    {
+                        "id": "2116_location"
+                    }
+                ]
+            },
+            "fulfillments": [
+                {
+                    "end": {
+                        "location": {
+                            "gps": "12.943655312278942, 77.6214589261631",
+                            "address": {
+                                "area_code": "560095"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

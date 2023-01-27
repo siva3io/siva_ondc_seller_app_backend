@@ -1,0 +1,162 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+    "context": {
+        "action": "on_status",
+        "bap_id": "ondc.eunimart.com",
+        "bap_uri": "https://ondc.eunimart.com/api/v1/ondc/bap/eunimart_bap/",
+        "bpp_id": "ondc.eunimart.com",
+        "bpp_uri": "https://ondc.eunimart.com/api/v1/ondc/bpp/eunimart_bpp/",
+        "city": "std:040",
+        "core_version": "1.0.0",
+        "country": "IND",
+        "domain": "nic2004:52110",
+        "message_id": "133d8ab1-e4bc-4997-952e-28bfac081574",
+        "timestamp": "2023-01-27T06:23:19.139Z",
+        "transaction_id": "e7972452-87cc-494c-849c-df7903e33319",
+        "ttl": "PT30S"
+    },
+    "message": {
+        "order": {
+            "id": "d0d3453f-0e12-47a7-bb3a-afd0cca53cfa",
+            "state": "Accepted",
+            "items": [
+                {
+                    "fulfillment_id": "Fulfillment-01",
+                    "id": "34XS84MBsSo6iBSY7JEc",
+                    "quantity": {
+                        "count": 1
+                    }
+                }
+            ],
+            "billing": {
+                "address": {
+                    "area_code": "500081",
+                    "city": "Hyderabad",
+                    "country": "India",
+                    "door": "11th floor Sanali Spazo, High Tech City",
+                    "state": "Telangana"
+                },
+                "email": "saira@gmail.com",
+                "name": "Saira",
+                "phone": "9874563214"
+            },
+            "quote": {
+                "breakup": [
+                    {
+                        "@ondc/org/item_id": "34XS84MBsSo6iBSY7JEc",
+                        "@ondc/org/item_quantity": {
+                            "count": 1
+                        },
+                        "@ondc/org/title_type": "item",
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "40"
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": "5"
+                                },
+                                "maximum": {
+                                    "count": "5"
+                                }
+                            }
+                        },
+                        "price": {
+                            "currency": "INR",
+                            "value": "40"
+                        },
+                        "title": "Sprite 600"
+                    },
+                    {
+                        "@ondc/org/item_id": "34XS84MBsSo6iBSY7JEc",
+                        "@ondc/org/title_type": "tax",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "title": "Tax"
+                    },
+                    {
+                        "@ondc/org/item_id": "Fulfillment-01",
+                        "@ondc/org/title_type": "packing",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "title": "Packing charges"
+                    },
+                    {
+                        "@ondc/org/item_id": "Fulfillment-01",
+                        "@ondc/org/title_type": "delivery",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "title": "Delivery charges"
+                    },
+                    {
+                        "@ondc/org/item_id": "Fulfillment-01",
+                        "@ondc/org/title_type": "misc",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "title": "Convenience Fee"
+                    }
+                ],
+                "price": {
+                    "currency": "INR",
+                    "value": "40"
+                }
+            },
+            "fulfillments": [
+                {
+                    "@ondc/org/TAT": "PT1M",
+                    "@ondc/org/category": "Delivery",
+                    "@ondc/org/provider_name": "Loadshare",
+                    "id": "Fulfillment-01",
+                    "state": {
+                        "descriptor": {
+                            "name": "Serviceable"
+                        }
+                    },
+                    "tracking": false
+                }
+            ],
+            "payment": {
+                "@ondc/org/buyer_app_finder_fee_amount": "3",
+                "@ondc/org/buyer_app_finder_fee_type": "Percent",
+                "@ondc/org/return_window": "P7D",
+                "@ondc/org/settlement_basis": "Collection",
+                "@ondc/org/settlement_details": [
+                    {
+                        "settlement_counterparty": "buyer-app",
+                        "settlement_phase": "sale-amount",
+                        "settlement_type": "upi",
+                        "upi_address": "8712799171@jupiteraxis"
+                    }
+                ],
+                "@ondc/org/settlement_window": "P7D",
+                "@ondc/org/withholding_amount": "0.0",
+                "collected_by": "BAP",
+                "params": {
+                    "amount": "40",
+                    "currency": "INR"
+                },
+                "status": "PAID",
+                "type": "ON-ORDER"
+            }
+        }
+    }
+}

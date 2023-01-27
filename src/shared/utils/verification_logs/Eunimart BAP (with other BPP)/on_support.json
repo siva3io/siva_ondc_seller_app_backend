@@ -1,0 +1,33 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+    "context": {
+        "domain": "nic2004:52110",
+        "country": "IND",
+        "city": "std:080",
+        "action": "on_support",
+        "core_version": "1.0.0",
+        "bap_id": "ondc.eunimart.com",
+        "bap_uri": "https://ondc.eunimart.com/api/v1/ondc/bap/eunimart_bap/",
+        "transaction_id": "397b38d2-f82a-4a92-8615-7dc49b20fa50",
+        "ttl": "PT30S",
+        "message_id": "0959eb33-1f12-4159-8787-bb1f51881c6f",
+        "timestamp": "2023-01-27T05:52:07.442Z",
+        "bpp_id": "kitchens-at.com",
+        "bpp_uri": "https://kitchens-at.com/ondc_preprod/Retailer/"
+    },
+    "message": {
+        "phone": "+919865098650",
+        "email": "ondcsupport@loyalhospitality.in",
+        "uri": "http://staging.kitchens-at.com/ondc_order_monitor/Chatbot/index/"
+    }
+}
